@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #151515;
+}
+
+/* Song UI styles */
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 0 1px 2px #151515;
+}
+
+.todo-details {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.todo-details p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.todo-details p span:first-child {
+  font-size: 1rem;
+}
+
+.todo-details p input {
+  margin-left: 1rem;
+}
+/* End of song UI styles */
+
+/* Form styles */
+.edit label {
+  display: block;
+  margin: 1rem 0;
+}
+
+.edit input {
+  margin-left: 1rem;
+}
+
+.btn {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
